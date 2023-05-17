@@ -990,7 +990,7 @@ class Book:
 
 Trong ví dụ trên có hai phương thức `@classmethod` là `create_document()` và `create_book()`, đối với phương thức `create_document()` gợi ý kiểu trả về là một đối tượng `Document`, do class `Document` được định nghĩa trước đó rồi nên hoàn toàn có thể sử dụng lớp `Document` là gợi ý. Tuy nhiên với phương thức `create_book()` thì gợi ý kiểu trả về là "Book" do thời điểm khai báo phương thức này lớp Book chưa tồn tại nên Python cho phép người dùng sử dụng dấu "" để định nghĩa gợi  kiểu trả về cho những lớp chưa được định nghĩa
 
-# `import` trong Python
+## `import` trong Python
 
 Trong Python, từ khóa `import` được sử dụng để nhập(import) một module hoặc một phần của module vào trong chương trình của bạn. Import cho phép bạn sử dụng mã từ module đã được định nghĩa trước đó hoặc các chức năng, lớp và biến khác mà module cung cấp.
 
